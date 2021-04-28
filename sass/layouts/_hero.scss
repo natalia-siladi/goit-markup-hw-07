@@ -1,0 +1,35 @@
+.hero__block {
+    padding: 200px 0;
+
+}
+.hero__title {
+    color: var(--object-colour);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    
+}
+.hero {
+    background-color: var(--secondary-background-colour);
+    text-align: center;
+
+    
+}
+
+
+.overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient( to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+       url(../images/overlay.jpg);
+     }
+      
